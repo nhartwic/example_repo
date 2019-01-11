@@ -14,6 +14,9 @@
 </head>
 
 <body>
+
+  <div class="container">
+  <div class="col-md-12">
   <!-- any weird symbols here such as &gt; or &lt; are HTML escape characters. http://www.theukwebdesigncompany.com/articles/entity-escape-characters.php -->
   <!-- these allow us to do things like write escaped HTML, or HTML that just gets rendered as text in the document -->
   <h1>Using Github Pages for Projects</h1>
@@ -23,7 +26,11 @@
     <p>
       Add/rename a file in your project to be "index.html". This page will act as the landing page for your projects site.
     </p>
-    <img src="images/im1.png">
+    <div class="container">
+      <div class="col-md-12" style="padding-left: 0px;  padding-right: 0px;">
+        <img src="images/im1.png" class="img-responsive">
+      </div>
+    </div>
   </section>
 
   <section>
@@ -32,17 +39,36 @@
     <p>
       Go to the Settings tab for your project and scroll down to the Github Pages section. Click the drop down menu beneat the Source section and select 'master branch'.
     </p>
-    <img src="images/im2.png">
+    <div class="container">
+      <div class="col-md-12" style="padding-left: 0px;  padding-right: 0px;">
+        <img src="images/im2.png" class="img-responsive">
+      </div>
+    </div>
   </section>
 
   <section>
     <hr>
-    <h2>Step 2</h2>
+    <h2>Step 3</h2>
     <p>
-      Go to the Settings tab for your project and scroll down to the Github Pages section. Click the drop down menu beneat the Source section and select 'master branch'. Click save.
+      When you clicked save, your page should have refreshed. Scroll back down to the github pages section and click the link next to "your site is ready to be published"
     </p>
-    <img src="images/im2.png">
+    <div class="container">
+      <div class="col-md-12" style="padding-left: 0px;  padding-right: 0px;">
+        <img src="images/im3.png" class="img-responsive">
+      </div>
+    </div>
   </section>
+
+  <section>
+    <hr>
+    <h2>Notes</h2>
+    <p>
+      <li>The github pages site can take a few minutes before it is updated and your projects page becomes accessible.</li>
+      <li>There are some reserved characters, such as "-" or "/" that need to be removed from your project name before the github page for your project will work.</li>
+    </p>
+  </section>
+</div>
+</div>
 
 </body>
 
